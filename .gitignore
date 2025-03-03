@@ -1,0 +1,32 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Ignore environment and dependency files
+.env
+*.log
+*.sqlite3
+config.json
+
+# Ignore FastAPI cache and compiled Python files
+app/__pycache__/
+app/ml_models/__pycache__/
+
+# Ignore Streamlit temporary files
+.streamlit/
+
+# Ignore Docker files
+*.dockerignore
+docker-compose.override.yml
+
+# Ignore MLflow files (if using MLflow for experiment tracking)
+mlruns/
