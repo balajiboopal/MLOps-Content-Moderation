@@ -4,6 +4,17 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Byte-compiled / Cached Python files
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+*.db
+
+# Data files
+data/
+
+
 # Ignore OS-specific files
 .DS_Store
 Thumbs.db
@@ -27,6 +38,11 @@ app/ml_models/__pycache__/
 # Ignore Docker files
 *.dockerignore
 docker-compose.override.yml
+# Docker files
+*.docker
+*.tar
 
 # Ignore MLflow files (if using MLflow for experiment tracking)
 mlruns/
+# Static files (if dynamically generated)
+static/
