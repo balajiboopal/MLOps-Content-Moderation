@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 
+# Use localhost for local development
 API_URL = "http://127.0.0.1:8001"
 
 st.title("Content Moderation System")
